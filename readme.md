@@ -20,4 +20,4 @@ A *modern and stylish* calculator built using *HTML, CSS, and JavaScript. This c
 ## 🛠 Installation & Usage  
 1. *Clone the Repository*  
    ```terminal
-   git clone https://github.com/satishk67/calculator.git
+   git clone https://github.com/priya-2101/calculator.git
