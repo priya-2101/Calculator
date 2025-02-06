@@ -1,0 +1,149 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Media Queries */
+@media (max-width: 600px) {
+  .title{
+    margin-top: 25%;
+  }
+  .calculator {
+    width: 70%;
+    padding: 15px;
+  }
+
+  .btn {
+    width: 25px;
+    height: 25px;
+    font-size: 18px;
+  }
+
+  .display {
+    font-size: 20px;
+    height: 50px;
+  }
+
+
+}
+
+@media (max-width: 400px) {
+  .btn {
+    width: 25px;
+    height: 25px;
+    font-size: 16px;
+  }
+
+  .display {
+    font-size: 18px;
+    height: 45px;
+  }
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f3c3f784;
+}
+
+.title {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 40px;
+  letter-spacing: 2px;
+  font-family: "Baloo Bhai 2", arial;
+  font-weight: 600;
+  color: rgb(255, 0, 238);
+  text-shadow: 2px 0px 5px rgb(27, 25, 25);
+}
+
+.calculator {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 5%;
+  background-color: #e4dcdc9f;
+  border-radius: 25px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  box-shadow: 0px 0px 20px rgb(97, 99, 99);
+}
+
+.display {
+  width: 100%;
+  height: 70px;
+  background-color: white;
+  font-family: poppins, Arial, Helvetica, sans-serif;
+  color: black;
+  border: none;
+  border-radius: 15px;
+  text-align: right;
+  padding: 10px;
+  font-size: 24px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  
+}
+
+.btn {
+  background-color: #605b5b;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #363535;
+}
+
+.operator {
+  background-color: #ed9d2df9;
+}
+
+.operator:hover {
+  background-color: #ffaa33;
+}
+
+.equal {
+  background-color: #34c759;
+}
+
+.equal:hover {
+  background-color: #30d158;
+}
+
+.clear {
+  background-color: #ff5a51f5;
+}
+
+.clear:hover {
+  background-color: #ff453a;
+}
+
+/* COPYRIGHT CLAIM */
+.footer {
+  text-align: center;
+  justify-content: baseline;
+  padding: 15px;
+  background-color: rgba(244, 44, 255, 0.7);
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  font-weight: 700;
+  margin-top: 40px;
+}
